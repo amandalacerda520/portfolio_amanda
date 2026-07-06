@@ -9,7 +9,7 @@ body{
     
 }
 header{
-    background-color: rgb(150, 61, 223);
+    background-color: rgb(102, 161, 172);
     color: rgb(19, 16, 19);
     height: 4em;
 }
@@ -20,4 +20,6 @@ header h1{
 
 img{
     width:50%;
+    border-radius: 30px;
 }
+
