@@ -3,14 +3,15 @@
 }
 
 body{
-    background-color: rgb(173, 118, 160);
+    background-color: rgb(133, 83, 106);
     font-size: 16px;
     color:  rgb(18, 18, 19);
+    font-family: sans-serif;
     
 }
 header{
     background-color: rgb(165, 121, 194);
-    color: rgb(19, 16, 19);
+    color: rgb(104, 51, 104);
     height: 4em;
 }
 
@@ -22,4 +23,5 @@ img{
     width:50%;
     border-radius: 30px;
 }
+
 
