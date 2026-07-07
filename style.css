@@ -1,28 +1,37 @@
 *{
-
+   
 }
 
 body{
-    background-color: rgb(209, 22, 22);
+    background-color: rgb(208, 209, 209);
     font-size: 16px;
-    color:  rgb(5, 5, 5);
-    font-family: sans-serif;
-    
+    color: black;
 }
+
 header{
-    background-color: rgb(185, 73, 73);
-    color: rgb(2, 2, 2);
+    background-color: rgb(126, 126, 126);
     height: 4em;
 }
 
 header h1{
     text-align: center;
-    color: rgb(0, 0, 0);
 }
 
 img{
-    width:15%;
-    border-radius: 30px;
+    width: 20%;
+    border-radius: 18px;
 }
 
+main{
+    background-color: rgb(177, 171, 171);
+    color: azure;
+    flex: 1;
+}
+
+section{
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
