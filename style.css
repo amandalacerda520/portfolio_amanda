@@ -36,8 +36,7 @@ main {
     flex: 1;
 }
 
-h2,
-h3 {
+h2, h3 {
     padding: 10px;
 }
 
@@ -49,7 +48,7 @@ section {
     gap: 40px;
 }
 
-section>div {
+section > div {
     flex: 1;
     margin: 2%;
 }
@@ -80,6 +79,7 @@ footer {
     width: 100%;
     background-color: rgb(203, 165, 236);
 }
+
 
 
 @media (max-width: 480px) {
