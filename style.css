@@ -66,7 +66,7 @@ li a {
 }
 
 a:hover {
-    color: yellow;
+    color: rgb(139, 139, 132);
 }
 
 a:visited {
