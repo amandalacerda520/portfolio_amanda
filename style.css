@@ -1,37 +1,104 @@
-*{
-   
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+html,
+body {
+    min-height: 100%;
+}
+
+body {
     background-color: rgb(208, 209, 209);
     font-size: 16px;
     color: black;
+    font-size: 17px;
+    line-height: 2.0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-header{
+header h1 {
     background-color: rgb(126, 126, 126);
     height: 4em;
-}
-
-header h1{
+    padding: 1em;
     text-align: center;
+    color: aqua;
+    width: 100%;
 }
 
-img{
-    width: 20%;
-    border-radius: 18px;
-}
 
-main{
+main {
     background-color: rgb(177, 171, 171);
     color: azure;
     flex: 1;
 }
 
-section{
+h2,
+h3 {
+    padding: 10px;
+}
+
+section {
     margin: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
 
+section>div {
+    flex: 1;
+    margin: 2%;
+}
+
+img {
+    width: 20%;
+    border-radius: 18px;
+}
+
+
+li a {
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: rgb(126, 126, 126);
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(203, 165, 236);
+}
+
+
+@media (max-width: 480px) {
+    section {
+        flex-direction: column;
+        margin: 3%;
+        gap: 20%;
+    }
+}
+
+@media (min-width: 481px) and (max-width:1024px) {
+    section {
+        margin: 3%;
+        gap: 5%;
+    }
+}
+
+@media (min-width: 1025px) {
+    section {
+        margin: 0 5%;
+    }
+}
